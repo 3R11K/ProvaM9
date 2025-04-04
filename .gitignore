@@ -1,0 +1,35 @@
+# Ignore build output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependency directories
+node_modules/
+
+# Publish output
+wwwroot/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Rider-specific files
+*.sln.iml
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
