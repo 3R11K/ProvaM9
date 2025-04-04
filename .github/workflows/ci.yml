@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '9.0.x'
 
     - name: Install dependencies
-      run: dotnet restore ./prova
+      run: dotnet restore ./prova --verbosity detailed
 
     - name: Build Blazor WebAssembly application
       run: dotnet build ./prova --configuration Release --no-restore --output ./build
