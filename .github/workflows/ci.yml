@@ -1,4 +1,4 @@
-name: .NET CI
+name: Blazor WebAssembly CI
 
 on:
   push:
@@ -24,5 +24,5 @@ jobs:
     - name: Install dependencies
       run: dotnet restore ./prova
 
-    - name: Build application
-      run: dotnet build ./prova --configuration Release --no-restore
+    - name: Build Blazor WebAssembly application
+      run: dotnet build ./prova --configuration Release --no-restore --output ./build
